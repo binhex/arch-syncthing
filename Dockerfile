@@ -21,12 +21,6 @@ RUN chmod +x /root/*.sh && \
 # docker settings
 #################
 
-# map /config to host defined config path (used to store configuration from app)
-VOLUME /config
-
-# map /media to host defined media path (used to read/write to media library)
-VOLUME /media
-
 # expose port for web ui
 EXPOSE 8384
 
