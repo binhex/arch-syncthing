@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/dumb-init /bin/bash
 
 config_filepath='/config/syncthing/config/config.xml'
 
