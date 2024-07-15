@@ -30,12 +30,6 @@ RUN chmod +x /root/*.sh && \
 # docker settings
 #################
 
-# expose port for web ui
-EXPOSE 8384
-
-# expose port for listen port
-EXPOSE 22000
-
 # set permissions
 #################
 
