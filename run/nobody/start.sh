@@ -12,4 +12,4 @@ if [ -f "${config_filepath}" ]; then
 fi
 
 # run syncthing
-/usr/bin/syncthing -config="${syncthing_config_path}" -data="${syncthing_data_path}" -gui-address="http://0.0.0.0:8384"
+/usr/bin/syncthing --config="${syncthing_config_path}" --data="${syncthing_data_path}" --gui-address="http://0.0.0.0:8384"
